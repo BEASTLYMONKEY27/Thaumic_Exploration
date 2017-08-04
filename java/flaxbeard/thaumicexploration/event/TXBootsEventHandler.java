@@ -336,7 +336,7 @@ public class TXBootsEventHandler
       	  }
       }
       if (player.capabilities.isFlying) {
-    	  smashing = false;
+    	  smashing = true;
     	  ticks = 0;
     	  ticksAir = 0;
       }
